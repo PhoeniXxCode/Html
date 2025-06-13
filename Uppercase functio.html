@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Uppercase Function</title>
+  <script type="text/javascript">
+    function display() {
+      var a = document.form1.t1.value;
+      document.form1.t2.value = a.toUpperCase();
+    }
+  </script>
+</head>
+<body>
+  <form name="form1">
+    Enter string value: <input type="text" name="t1"><br><br><br>
+    Uppercase string is: <input type="text" name="t2"><br><br><br>
+    <input type="button" value="Press Button" onclick="display()">
+  </form>
+</body>
+</html>
