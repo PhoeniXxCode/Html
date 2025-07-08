@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>program3</title>
+</head>
+<body>
+
+<script>
+  var no1, no2;
+  no1 = prompt("Enter first number");
+  no2 = prompt("Enter second number");
+
+  if (no1 === no2)
+    document.write("Both are equal");
+  else
+    document.write("Given numbers are not equal");
+</script>
+
+</body>
+</html>
+
+
