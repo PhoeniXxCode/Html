@@ -1,0 +1,78 @@
+!DOCTYPE html>
+<html>
+<head>
+    <title>REGISTRATION FORM</title>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form>
+
+    <fieldset>
+        <legend>Personal Information</legend>
+
+        <label>Full Name</label>
+        <input type="text" id="fullname" name="fullname" value="Shruti Baviskar"><br><br>
+
+        <label>Email</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label>Age</label>
+        <input type="number" id="age" name="age"><br><br>
+
+        <label>Gender</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Account Information</legend>
+
+        <label>Username</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label>Password</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label>Confirm Password</label>
+        <input type="password" id="confirmpassword" name="confirmpassword"><br><br>
+
+        <label>Upload Avatar</label>
+        <input type="file" id="avatar" name="avatar"><br><br>
+
+        <label>Bio</label><br>
+        <textarea id="bio" name="bio" rows="4" cols="30" placeholder="Tell us about yourself..."></textarea><br><br>
+
+        <label>Country</label>
+        <select id="country" name="country">
+            <option>Select</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>UK</option>
+            <option>Australia</option>
+        </select><br><br>
+
+        <input type="checkbox" id="terms" name="terms">
+        <label for="terms">I agree to the terms and conditions</label><br><br>
+
+    </fieldset>
+
+    <br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
